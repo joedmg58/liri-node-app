@@ -19,7 +19,7 @@ switch (cmd) {
         tweeter();
         break;
     case 'spotify-this-song':
-        spotify();
+        spotifyThis();
         break;
     case 'movie-this':
         omdb();
@@ -47,18 +47,54 @@ function tweeter() {
     });
 }
 
-function spotify() {
+function spotifyThis() {
+    var song = 'The Sign';
     if (process.argv.length > 3) {
-        var song = process.argv[3];
-        console.log('Spotifying ', song);
+        song = process.argv[3];
     }
-    else {
-        console.log('enter a song name');
-    }
+
+    spotify.search( { type: 'track', query: song }, function(err, data) {
+        if (err) {
+            return console.log('Error occurred: ' + err);
+        }
+
+            var artists = data.tracks.items[0].artists[0].name;
+            for ( var i = 1; i<data.tracks.items[0].artists; i++ ) {
+                var artist =+ ', ' + data.tracks.items[0].artists[i].name;
+            }
+           
+            console.log( 'Artists: ' + artists );
+            console.log( 'Song name: ' + data.tracks.items[0].name );
+            console.log( 'Album: ' + data.tracks.items[0].album.name ); 
+            console.log( 'Preview link: ' + data.tracks.items[0].preview_url );
+
+            //console.log( data.tracks.items[0] );
+
+    });
 }
 
 function omdb() {
+    var movie = 'Mr. Nobody';
+    if ( process.argv.length > 3 ) {
+        movie = process.argv[3];
+    }
 
+    request("http://www.omdbapi.com/?t=" + encodeURI( movie ) + "&apikey=trilogy", function(error, response, body) {
+        if (!error && response.statusCode === 200) {
+
+            console.log( 'Movie title: ' + JSON.parse( body ).Title );
+            console.log( 'Year: ' + JSON.parse( body ).Year );
+            console.log( 'Rated: ' + JSON.parse( body ).Rated );
+            console.log( 'Language: ' + JSON.parse( body ).Language );
+            console.log( 'Country: ' + JSON.parse( body ).Country );
+            console.log( 'Director: ' + JSON.parse( body ).Director );
+            console.log( 'Actors: ' + JSON.parse( body ).Actors );
+            console.log( 'Plot: ' + JSON.parse( body ).Plot );
+            console.log( JSON.parse( body ).Ratings[0].Source + ' rating: ' + JSON.parse( body ).Ratings[0].Value );
+            console.log( JSON.parse( body ).Ratings[1].Source + ' rating: ' + JSON.parse( body ).Ratings[1].Value );
+
+        }
+    });
 }
 
 function dwis() {
