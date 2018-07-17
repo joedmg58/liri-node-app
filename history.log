@@ -1,0 +1,3 @@
+2018-7-15 21:04:50 - node liri.js movie-this "The Avengers"
+2018-7-15 21:06:03 - node liri.js spotify-this-song "We are the champions"
+2018-7-15 21:06:19 - node liri.js my-tweets 
