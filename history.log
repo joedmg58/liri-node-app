@@ -1,3 +1,24 @@
 2018-7-15 21:04:50 - node liri.js movie-this "The Avengers"
 2018-7-15 21:06:03 - node liri.js spotify-this-song "We are the champions"
 2018-7-15 21:06:19 - node liri.js my-tweets 
+2018-7-17 21:17:13 - node liri.js tweets-of "JosephE66122878"
+2018-7-17 21:17:59 - node liri.js tweets-of "realDonaldTrump"
+2018-7-17 21:18:33 - node liri.js -help 
+2018-8-9 18:30:22 - node liri.js 
+2018-8-9 18:30:58 - node liri.js 
+2018-8-9 18:32:03 - node liri.js 
+2018-8-9 18:32:16 - node liri.js -help 
+2018-8-9 18:33:05 - node liri.js spotify-this-song "shout"
+2018-8-9 18:33:33 - node liri.js movie-this "titanic"
+2018-9-10 21:33:52 - node liri.js 
+2018-9-10 21:34:15 - node liri.js -help 
+2018-9-10 21:35:42 - node liri.js spotify-this-song "We are the champions"
+2018-9-10 21:36:44 - node liri.js movie-this "Tomb Rider"
+2018-9-10 21:37:33 - node liri.js movie-this "The Notebook"
+2018-9-10 21:38:29 - node liri.js mytweets 
+2018-9-10 21:38:43 - node liri.js -help 
+2018-9-10 21:38:56 - node liri.js my-tweets 
+2018-9-10 21:52:49 - node liri.js -help 
+2018-9-10 21:53:14 - node liri.js spotify-this-song "We are the Champions"
+2018-9-10 21:53:35 - node liri.js movie-this "The Notebook"
+2018-9-10 21:53:48 - node liri.js my-tweets 

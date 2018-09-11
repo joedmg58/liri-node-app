@@ -1,0 +1,417 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\joedm\umCodingBootCamp\code\homeWork\week10 - Liri-Bot\liri-node-app
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 120
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 30
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a url, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 4085
+    content: "\e[0m\e[0K"
+  - delay: 315
+    content: "Windows PowerShell\e[0K\e[?25l\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[0K\r\n\e[0K\r\n\e[0K\e[?25h"
+  - delay: 913
+    content: "PS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app>\e[0K\e[83G"
+  - delay: 2625
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mn\e[0m\e[0K\e[?25h"
+  - delay: 184
+    content: "\e[0;33;93mo\e[0m\e[0K"
+  - delay: 220
+    content: "\e[0;33;93md\e[0m\e[0K"
+  - delay: 218
+    content: "\e[0;33;93me\e[0m\e[0K"
+  - delay: 622
+    content: "\e[88G"
+  - delay: 508
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mnode\e[0m l\e[0K\e[?25h"
+  - delay: 276
+    content: "i\e[0K"
+  - delay: 312
+    content: "t\e[0K"
+  - delay: 185
+    content: "i\e[0K"
+  - delay: 1654
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mnode\e[0m lit\e[0K\e[?25h"
+  - delay: 220
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mnode\e[0m li\e[0K\e[?25h"
+  - delay: 1063
+    content: "r\e[0K"
+  - delay: 285
+    content: "i\e[0K"
+  - delay: 818
+    content: "\e[93G"
+  - delay: 591
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mnode\e[0m liri \e[0;37;90m-\e[0m\e[0K\e[?25h"
+  - delay: 784
+    content: "\e[0;37;90mh\e[0m\e[0K"
+  - delay: 59
+    content: "\e[0;37;90me\e[0m\e[0K"
+  - delay: 402
+    content: "\e[0;37;90ml\e[0m\e[0K"
+  - delay: 225
+    content: "\e[0;37;90mp\e[0m\e[0K"
+  - delay: 1186
+    content: "\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 472
+    content: "Liri Bot 0.1 - UM Codding Boot Camp, Nodejs homework. Joed Machado, 2018.\e[0K\e[?25l\r\n--------------------------------------------------------------------------------\e[0K\r\nThe allowed commands are:\e[0K\r\n  liri my-tweets - It will show you my tweets message.\e[0K\r\n  liri tweets-of <user_id> - Shows the tweeters of some user.\e[0K\r\n  liri spotify-this-song <song_name> - It will bring some info about the song using spotify API.\e[0K\r\n  liri movie-this <movie_name> - shows info about the movie using omdb API.\e[0K\r\n  liti do-what-it-says - It will run the batch command on random.txt.\e[0K\r\n--------------------------------------------------------------------------------\e[0K\e[1G\e[?25h"
+  - delay: 25
+    content: "\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 97
+    content: "PS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app>\e[0K\e[83G"
+  - delay: 2308
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mn\e[0m\e[0K\e[?25h"
+  - delay: 226
+    content: "\e[0;33;93mo\e[0m\e[0K"
+  - delay: 242
+    content: "\e[?25l\e[0;33;93md\e[0m\e[0K\e[85G\e[?25h"
+  - delay: 35
+    content: "\e[86G"
+  - delay: 222
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mnode\e[0m\e[0K\e[?25h"
+  - delay: 621
+    content: "\e[88G"
+  - delay: 531
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mnode\e[0m l\e[0K\e[?25h"
+  - delay: 282
+    content: "i\e[0K"
+  - delay: 587
+    content: "r\e[0K"
+  - delay: 224
+    content: "i\e[0K"
+  - delay: 1098
+    content: "\e[93G"
+  - delay: 1154
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mnode\e[0m liri s\e[0K\e[?25h"
+  - delay: 216
+    content: "p\e[0K"
+  - delay: 255
+    content: "o\e[0K"
+  - delay: 338
+    content: "t\e[0K"
+  - delay: 192
+    content: "i\e[0K"
+  - delay: 278
+    content: "f\e[0K"
+  - delay: 471
+    content: "y\e[0K"
+  - delay: 1468
+    content: "-\e[0K"
+  - delay: 283
+    content: "\e[?25lt\e[0K\e[101G\e[?25h"
+  - delay: 28
+    content: "\e[102G"
+  - delay: 220
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mnode\e[0m liri spotify-th\e[0K\e[?25h"
+  - delay: 221
+    content: "i\e[0K"
+  - delay: 181
+    content: "s\e[0K"
+  - delay: 596
+    content: "-\e[0K"
+  - delay: 224
+    content: "s\e[0K"
+  - delay: 1000
+    content: "o\e[0K"
+  - delay: 281
+    content: "n\e[0K"
+  - delay: 335
+    content: "g\e[0K"
+  - delay: 661
+    content: "\e[111G"
+  - delay: 780
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app\e[0;31;91m>\e[0m \e[0;33;93mnode\e[0m liri spotify-this-song \e[0;36m\"\e[0m\e[0K\e[?25h"
+  - delay: 409
+    content: "\e[0;36mW\e[0m\e[0K"
+  - delay: 276
+    content: "\e[0;36me\e[0m\e[0K"
+  - delay: 911
+    content: "\e[0;36m \e[0m\e[0K"
+  - delay: 186
+    content: "\e[0;36ma\e[0m\e[0K"
+  - delay: 312
+    content: "\e[0;36mr\e[0m\e[0K"
+  - delay: 156
+    content: "\e[0;36me\e[0m\e[0K"
+  - delay: 904
+    content: "\e[?25l\e[0;36m \e[0m\e[0K\e[118G\e[?25h"
+  - delay: 36
+    content: "\e[119G"
+  - delay: 252
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app\e[0;31;91m>\e[0m \e[0;33;93mnode\e[0m liri spotify-this-song \e[0;36m\"We are t\e[0m\e[0K\e[?25h"
+  - delay: 152
+    content: "\e[0;36m\e[0Kh\e[?25l\r\n\e[0m\e[0K\e[?25h"
+  - delay: 193
+    content: "\e[0;36me\e[0m\e[0K"
+  - delay: 188
+    content: "\e[0;36m \e[0m\e[0K"
+  - delay: 435
+    content: "\e[0;36mC\e[0m\e[0K"
+  - delay: 436
+    content: "\e[0;36mh\e[0m\e[0K"
+  - delay: 127
+    content: "\e[0;36ma\e[0m\e[0K"
+  - delay: 186
+    content: "\e[0;36mm\e[0m\e[0K"
+  - delay: 309
+    content: "\e[0;36mp\e[0m\e[0K"
+  - delay: 316
+    content: "\e[0;36mi\e[0m\e[0K"
+  - delay: 157
+    content: "\e[0;36mo\e[0m\e[0K"
+  - delay: 189
+    content: "\e[0;36mn\e[0m\e[0K"
+  - delay: 154
+    content: "\e[0;36ms\e[0m\e[0K"
+  - delay: 1090
+    content: "\e[?25l\r\e[1APS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mnode\e[0m liri spotify-this-song \e[0;36m\"We are t\e[0Kh\r\ne Champions\"\e[0m\e[0K\e[?25h"
+  - delay: 1536
+    content: "\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 1342
+    content: "Artists: Queen\e[0K\e[?25l\r\nSong name: We Are The Champions - Remastered 2011\e[0K\r\nAlbum: News Of The World (Deluxe Remastered Version)\e[0K\r\nPreview link: null\e[0K\r\n--------------------------------------------------------------------------------\e[0K\r\n\e[0K\e[?25h"
+  - delay: 24
+    content: "PS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app>\e[0K\e[83G"
+  - delay: 3289
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mn\e[0m\e[0K\e[?25h"
+  - delay: 183
+    content: "\e[?25l\e[0;33;93mo\e[0m\e[0K\e[84G\e[?25h"
+  - delay: 36
+    content: "\e[85G"
+  - delay: 184
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mnod\e[0m\e[0K\e[?25h"
+  - delay: 190
+    content: "\e[0;33;93me\e[0m\e[0K"
+  - delay: 462
+    content: "\e[88G"
+  - delay: 473
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mnode\e[0m l\e[0K\e[?25h"
+  - delay: 279
+    content: "i\e[0K"
+  - delay: 375
+    content: "r\e[0K"
+  - delay: 195
+    content: "i\e[0K"
+  - delay: 745
+    content: "\e[93G"
+  - delay: 502
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mnode\e[0m liri m\e[0K\e[?25h"
+  - delay: 218
+    content: "o\e[0K"
+  - delay: 374
+    content: "v\e[0K"
+  - delay: 218
+    content: "i\e[0K"
+  - delay: 371
+    content: "e\e[0K"
+  - delay: 689
+    content: "-\e[0K"
+  - delay: 474
+    content: "t\e[0K"
+  - delay: 153
+    content: "h\e[0K"
+  - delay: 253
+    content: "i\e[0K"
+  - delay: 221
+    content: "s\e[0K"
+  - delay: 1056
+    content: "\e[104G"
+  - delay: 813
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app\e[0;31;91m>\e[0m \e[0;33;93mnode\e[0m liri movie-this \e[0;36m\"\e[0m\e[0K\e[?25h"
+  - delay: 1099
+    content: "\e[0;36mT\e[0m\e[0K"
+  - delay: 243
+    content: "\e[0;36mh\e[0m\e[0K"
+  - delay: 125
+    content: "\e[0;36me\e[0m\e[0K"
+  - delay: 163
+    content: "\e[0;36m \e[0m\e[0K"
+  - delay: 312
+    content: "\e[0;36mN\e[0m\e[0K"
+  - delay: 247
+    content: "\e[0;36mo\e[0m\e[0K"
+  - delay: 282
+    content: "\e[0;36mt\e[0m\e[0K"
+  - delay: 348
+    content: "\e[0;36me\e[0m\e[0K"
+  - delay: 1876
+    content: "\e[0;36mb\e[0m\e[0K"
+  - delay: 428
+    content: "\e[0;36mo\e[0m\e[0K"
+  - delay: 158
+    content: "\e[0;36mo\e[0m\e[0K"
+  - delay: 467
+    content: "\e[0;36mk\e[0m\e[0K"
+  - delay: 1133
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mnode\e[0m liri movie-this \e[0;36m\"The Notebook\"\e[0m\e[0K\e[?25h"
+  - delay: 1023
+    content: "\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 666
+    content: "Movie title: The Notebook\e[0K\e[?25l\r\nYear: 2004\e[0K\r\nRated: PG-13\e[0K\r\nLanguage: English\e[0K\r\nCountry: USA\e[0K\r\nDirector: Nick Cassavetes\e[0K\r\nActors: Tim Ivey, Gena Rowlands, Starletta DuPois, James Garner\e[0K\r\nPlot: A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they ar\e[0Ke\r\n soon separated because of their social differences.\e[0K\r\nInternet Movie Database rating: 7.9/10\e[0K\r\nRotten Tomatoes rating: 52%\e[0K\r\nMetacritic rating: 53/100\e[0K\r\n--------------------------------------------------------------------------------\e[0K\r\nPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app>\e[0K\e[83G\e[?25h"
+  - delay: 2876
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mn\e[0m\e[0K\e[?25h"
+  - delay: 276
+    content: "\e[0;33;93mo\e[0m\e[0K"
+  - delay: 249
+    content: "\e[0;33;93md\e[0m\e[0K"
+  - delay: 189
+    content: "\e[0;33;93me\e[0m\e[0K"
+  - delay: 156
+    content: "\e[88G"
+  - delay: 284
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mnode\e[0m l\e[0K\e[?25h"
+  - delay: 242
+    content: "i\e[0K"
+  - delay: 318
+    content: "r\e[0K"
+  - delay: 185
+    content: "i\e[0K"
+  - delay: 1153
+    content: "\e[93G"
+  - delay: 600
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93mnode\e[0m liri m\e[0K\e[?25h"
+  - delay: 339
+    content: "y\e[0K"
+  - delay: 910
+    content: "-\e[0K"
+  - delay: 558
+    content: "t\e[0K"
+  - delay: 441
+    content: "w\e[0K"
+  - delay: 251
+    content: "e\e[0K"
+  - delay: 126
+    content: "e\e[0K"
+  - delay: 342
+    content: "t\e[0K"
+  - delay: 154
+    content: "s\e[0K"
+  - delay: 2373
+    content: "\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 974
+    content: "Showing your tweets:\e[0K\e[?25l\r\n--------------------------------------------------------------------------------\e[0K\r\n\e[0K\e[?25h"
+  - delay: 316
+    content: "Sat Jul 14 20:48:18 +0000 2018\e[0K\e[?25l\r\nFrance vs. Croatia, 2018 World Cup Final. Who's gonna win ?\e[0K\r\n--------------------------------------------------------------------------------\e[0K\r\nSat Jul 14 20:44:35 +0000 2018\e[0K\r\nToo much hot this day, I'm melting myself\e[0K\r\n--------------------------------------------------------------------------------\e[0K\r\nSat Jul 14 20:43:53 +0000 2018\e[0K\r\nWho was the winner in the scoccer game this morning ?\e[0K\r\n--------------------------------------------------------------------------------\e[0K\r\n\e[0K\e[?25h"
+  - delay: 25
+    content: "PS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app>\e[0K\e[83G"
+  - delay: 2536
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93m^D\e[0m\e[0K\e[?25h"
+  - delay: 1562
+    content: "\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 392
+    content: "\e[0;31;91m╝ : The term '╝' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the \e[0m\e[0K\e[?25l\r\n\e[0;31;91mspelling of the name, or if a path was included, verify that the path is correct and try again.\e[0m\e[0K\r\n\e[0;31;91mAt line:1 char:1\e[0m\e[0K\r\n\e[0;31;91m+ ╝\e[0m\e[0K\r\n\e[0;31;91m+ ~\e[0m\e[0K\r\n\e[0;31;91m    + CategoryInfo          : ObjectNotFound: (╝:String) [], CommandNotFoundException\e[0m\e[0K\r\n\e[0;31;91m    + FullyQualifiedErrorId : CommandNotFoundException\e[0m\e[0K\r\n\e[0;31;91m \e[0m\e[0K\r\n\e[0K\e[?25h"
+  - delay: 11
+    content: "PS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app>\e[0K\e[83G"
+  - delay: 4877
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;33;93me\e[0m\e[0K\e[?25h"
+  - delay: 250
+    content: "\e[0;33;93mx\e[0m\e[0K"
+  - delay: 313
+    content: "\e[0;33;93mi\e[0m\e[0K"
+  - delay: 215
+    content: "\e[?25l\rPS C:\\Users\\joedm\\umCodingBootCamp\\code\\homeWork\\week10 - Liri-Bot\\liri-node-app> \e[0;32;92mexit\e[0m\e[0K\e[?25h"
+  - delay: 1783
+    content: "\e[?25l\r\n\e[0K\e[?25h"
