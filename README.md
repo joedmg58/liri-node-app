@@ -3,4 +3,4 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI will be a comm
 
 This a screen capture of its use:
 
-![liri-bot-in-action](.\liri-bot.gif)
+![liri-bot-in-action](https://github.com/joedmg58/liri-node-app/blob/master/liri-bot.gif)
